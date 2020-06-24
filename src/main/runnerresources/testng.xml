@@ -1,0 +1,21 @@
+
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Bank Automation WebApp Automation Test">
+
+<listeners>
+
+         <listener class-name="com.qa.ExtentReportListener.ExtentReportListener" />
+
+</listeners>
+
+<test name="Bank Automation Test cases Test">
+<classes>
+
+           <class name="com.bank.qa.testcases.LoginPageTest"></class>
+           <class name="com.bank.qa.testcases.HomePageTest"></class>
+           <class name="com.bank.qa.testcases.NewCustomerPageTest"></class>
+</classes>
+</test>
+</suite>

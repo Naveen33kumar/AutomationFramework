@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Bank Automation WebApp Automation Test]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Bank Automation Test cases Test(failed)">
+    <classes>
+      <class name="com.bank.qa.testcases.NewCustomerPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="enterCustomerNameTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.bank.qa.testcases.NewCustomerPageTest -->
+    </classes>
+  </test> <!-- Bank Automation Test cases Test(failed) -->
+</suite> <!-- Failed suite [Bank Automation WebApp Automation Test] -->

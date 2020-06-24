@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="74958" started-at="2020-06-23T23:18:51 IST" finished-at="2020-06-23T23:20:06 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="74958" started-at="2020-06-23T23:18:51 IST" finished-at="2020-06-23T23:20:06 IST">
+      <class name="com.bank.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bank.qa.testcases.LoginPageTest@17579e0f]" name="setUp" is-config="true" duration-ms="37627" started-at="2020-06-23T23:18:51 IST" finished-at="2020-06-23T23:19:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.bank.qa.testcases.LoginPageTest@17579e0f]" name="loginPageTitleTest" duration-ms="97" started-at="2020-06-23T23:19:29 IST" finished-at="2020-06-23T23:19:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.qa.testcases.LoginPageTest@17579e0f]" name="tearDown" is-config="true" duration-ms="1573" started-at="2020-06-23T23:19:29 IST" finished-at="2020-06-23T23:19:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bank.qa.testcases.LoginPageTest@17579e0f]" name="setUp" is-config="true" duration-ms="16842" started-at="2020-06-23T23:19:31 IST" finished-at="2020-06-23T23:19:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageLogoTest()[pri:2, instance:com.bank.qa.testcases.LoginPageTest@17579e0f]" name="loginPageLogoTest" duration-ms="326" started-at="2020-06-23T23:19:48 IST" finished-at="2020-06-23T23:19:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.qa.testcases.LoginPageTest@17579e0f]" name="tearDown" is-config="true" duration-ms="1268" started-at="2020-06-23T23:19:48 IST" finished-at="2020-06-23T23:19:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bank.qa.testcases.LoginPageTest@17579e0f]" name="setUp" is-config="true" duration-ms="10423" started-at="2020-06-23T23:19:49 IST" finished-at="2020-06-23T23:20:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.bank.qa.testcases.LoginPageTest@17579e0f]" name="loginTest" duration-ms="5245" started-at="2020-06-23T23:20:00 IST" finished-at="2020-06-23T23:20:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.qa.testcases.LoginPageTest@17579e0f]" name="tearDown" is-config="true" duration-ms="1369" started-at="2020-06-23T23:20:05 IST" finished-at="2020-06-23T23:20:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bank.qa.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
