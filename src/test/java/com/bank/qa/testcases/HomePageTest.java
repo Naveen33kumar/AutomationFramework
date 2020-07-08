@@ -10,6 +10,10 @@ import com.bank.qa.pages.HomePage;
 import com.bank.qa.pages.LoginPage;
 import com.bank.qa.pages.NewCustomerPage;
 
+/*
+ * Naveen author
+ */
+
 public class HomePageTest extends TestBase
 {
 
