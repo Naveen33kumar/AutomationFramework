@@ -12,6 +12,11 @@ import com.bank.qa.pages.LoginPage;
 import com.bank.qa.pages.NewCustomerPage;
 import com.bank.qa.util.TestUtils;
 
+/*
+ * Author naveen
+ * 
+ */
+
 public class NewCustomerPageTest extends TestBase
 {
 	LoginPage loginpage;
