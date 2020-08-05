@@ -15,6 +15,9 @@ public class HomePage extends TestBase
 	@FindBy(xpath="//a[contains(text(),'New Customer')]")
 	WebElement newCustomerLink;
 	
+	@FindBy(xpath="//a[contains(text(),'Mini Statement')]")
+	WebElement miniStatementLink;
+	
 	public HomePage()
 	{
 		PageFactory.initElements(driver, this);
@@ -29,11 +32,19 @@ public class HomePage extends TestBase
 	{
 		return homePageLogo.isDisplayed();
 	}
+	
 
 	public NewCustomerPage clickOnNewCustomerLink()
 	{
 		newCustomerLink.click();
 		
 		return new NewCustomerPage();
+	}
+	
+	public MiniStatementPage clickOnMiniStatementLink()
+	{
+		miniStatementLink.click();
+		
+		return new MiniStatementPage();
 	}
 }
